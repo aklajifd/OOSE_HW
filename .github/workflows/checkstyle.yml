@@ -24,7 +24,7 @@ jobs:
       - name: Install Checkstyle
         run: |
           wget -O checkstyle.jar https://github.com/checkstyle/checkstyle/releases/download/checkstyle-10.12.1/checkstyle-10.12.1-all.jar
-          echo "java -jar checkstyle.jar -c checkstyle.xml OOSE_Develop_Maintain/**/*.java" > run_checkstyle.sh
+          echo "java -jar checkstyle.jar -c checkstyle.xml *.java" > run_checkstyle.sh
           chmod +x run_checkstyle.sh
 
       - name: Run Checkstyle
