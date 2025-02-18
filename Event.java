@@ -42,13 +42,11 @@ public class Event {
 		throw new UnsupportedOperationException();
 	}
 
-	public int getID() {
-		return this._iD;
-	}
+	public int getID(){
+		return this._iD;}
 
-	public void setID(int aID) {
-		this._iD = aID;
-	}
+	public void setID(int aID){
+	this._iD = aID;}
 
 	public String getName() {
 		return this._name;
