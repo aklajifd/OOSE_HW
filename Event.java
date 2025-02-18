@@ -49,8 +49,7 @@ public class Event {
 	this._iD = aID;}
 
 	public String getName() {
-		return this._name;
-	}
+	return this._name;}
 
 	public void setName(String aName) {
 		this._name = aName;
