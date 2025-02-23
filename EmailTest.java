@@ -1,6 +1,9 @@
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import static org.junit.jupiter.api.Assertions.*;
+import java.util.List;
+import java.util.Date;
+import java.awt.Image;
 
 public class EmailTest {
     @Test
