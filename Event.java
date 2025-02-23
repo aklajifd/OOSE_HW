@@ -23,7 +23,7 @@ public class Event {
     }
 
     public List<Event> filterByGenre(List<Event> aEvents, String aGenre) {
-	    throw new UnsupportedOperationException();
+        throw new UnsupportedOperationException();
     }
 
     public List<Event> filterByPrice(List<Event> aEvents, Double aMinPrice, Double aMaxPrice) {

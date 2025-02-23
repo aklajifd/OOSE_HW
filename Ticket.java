@@ -13,7 +13,7 @@ public class Ticket {
         throw new UnsupportedOperationException();
     }
 
-    public Email sendConfirmationEmail(String aRecipient, String aSubject, String aBody, Date aSentDate) {
+    public Email sendConEmail(String aRecipient, String aSubject, String aBody, Date aSentDate) {
         throw new UnsupportedOperationException();
     }
 
@@ -54,6 +54,6 @@ public class Ticket {
     }
 
     public void setPrice(Double aPrice) {
-	    this._price = aPrice;
+        this._price = aPrice;
     }
 }
