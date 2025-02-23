@@ -1,3 +1,5 @@
+import java.awt.Image;
+
 public class Venue {
     private int _iD;
     private String _name;

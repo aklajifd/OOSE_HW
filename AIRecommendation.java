@@ -1,4 +1,5 @@
 import java.util.Vector;
+import java.util.List;
 
 public class AIRecommendation {
     private int _iD;

@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Email {
     private int _iD;
     private String _subject;

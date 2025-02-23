@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Ticket {
     private int _iD;
     private User _user;

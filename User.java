@@ -1,4 +1,6 @@
 import java.util.Vector;
+import java.util.List;
+import java.awt.Image;
 
 public class User {
     private int _iD;
