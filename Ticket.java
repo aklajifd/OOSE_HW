@@ -6,8 +6,8 @@ public class Ticket {
     private Event _event;
     private Date _purchaseDate;
     private Double _price;
-    public User _user;
-    public Event _event;
+    public User __user;
+    public Event __event;
     public Booking _booking;
     public Email _email;
 

@@ -6,7 +6,7 @@ public class GuestAccount {
     private String _email;
     private Payment _paymentInfo;
     public Vector<Booking> _booking = new Vector<Booking>();
-    public Email _email;
+    public Email __email;
     public Payment _payment;
 
     public Boolean purchaseAsGuest(Event aEvent, Payment aPayment) {

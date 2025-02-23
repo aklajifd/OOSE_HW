@@ -6,10 +6,10 @@ public class Booking {
     private Payment _payment;
     private Event _event;
     private Integer _numOfTickets;
-    public Payment _payment;
+    public Payment __payment;
     public GuestAccount _guestAccount;
-    public User _user;
-    public Event _event;
+    public User __user;
+    public Event __event;
     public Email _email;
     public Vector<Ticket> _ticket = new Vector<Ticket>();
 

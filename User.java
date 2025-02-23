@@ -15,7 +15,7 @@ public class User {
     public Vector<Ticket> _ticket = new Vector<Ticket>();
     public Vector<Review> _review = new Vector<Review>();
     public Vector<Booking> _booking = new Vector<Booking>();
-    public Vector<Email> _email = new Vector<Email>();
+    public Vector<Email> __email = new Vector<Email>();
 
     public Boolean login() {
         throw new UnsupportedOperationException();

@@ -3,7 +3,7 @@ public class Review {
     private Integer _rating;
     private String _comment;
     private User _user;
-    public User _user;
+    public User __user;
     public Event _event;
 
     public Boolean submitReview() {
